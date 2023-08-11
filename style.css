@@ -239,6 +239,7 @@ h3 {
   margin-top: 50px;
 }
 
+/* Dekstop */
 @media only screen and (max-width: 1020px) {
   .wrapper {
     width: 90%;
@@ -315,12 +316,21 @@ h3 {
         display: block;
         width: 100%;
         height: auto;
-        font-size: 14px;
+        font-size: 20px;
         padding: 10px;
       }
 
       .kolom>p {
-        font-size: 19px;
+        font-size: 1rem;
+      }
+
+      .kartu-partner img {
+        width: 150px;
+        border-radius: 20%;
+      }
+      
+      .footer-section p{
+        font-size: 14px;
       }
 
 }
