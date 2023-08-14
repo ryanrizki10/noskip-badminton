@@ -11,6 +11,7 @@ body {
   /* height: 2000px; */
 }
 
+
 .wrapper {
   width: 1100px;
   margin: auto;
@@ -325,7 +326,7 @@ h3 {
       }
 
       .kartu-partner img {
-        width: 150px;
+        width: 170px;
         border-radius: 20%;
       }
       
