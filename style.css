@@ -37,7 +37,7 @@ nav {
   display: flex;
   line-height: 80px;
   position: sticky;
-  position: -webkit-sticky;
+  position: -webkit-sticky; 
   top: 0;
   background-color: #ffffff;
   z-index: 1;
