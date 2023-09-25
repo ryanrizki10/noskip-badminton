@@ -122,6 +122,7 @@ section {
 .tbl-biru:hover {
   background-color: #fc5185;
   text-decoration: none;
+  
 }
 
 .tbl-pink {
@@ -240,6 +241,86 @@ h3 {
   margin-top: 50px;
 }
 
+/* Login User */
+.body-login {
+  background-image: linear-gradient(to right top, #051937, #004a76, #00818d,#00b56c, #9dde0e);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 425px;
+  height: auto;
+  color: #fff;
+  background: #364f6b;
+  padding: 35px 50px;
+  border-radius: 2px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.input_wrap{
+  margin-bottom: 20px;
+  width: 325px;
+  position: relative;
+}
+
+.form .input_wrap:last-child {
+  margin-bottom: 0;
+}
+
+.form .input_wrap label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form .input_wrap input {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.form .input_wrap .input {
+  background: #e3e3e3;
+  padding-right: 35px;
+}
+
+.form .input_wrap .input:focus {
+  border-color: #1dbf73;
+}
+
+.form .input_wrap .input_field {
+  position: relative;
+}
+
+.form .input_wrap .error_msg {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #f74040;
+  display: none;
+}
+
+.form .input_wrap .btn {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: #1dbf73;
+  cursor: pointer;
+}
+
+
 /* Dekstop */
 @media only screen and (max-width: 1020px) {
   .wrapper {
@@ -335,3 +416,5 @@ h3 {
       }
 
 }
+
+/* ==================Finish==================== */

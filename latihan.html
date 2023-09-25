@@ -4,22 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
+    <style>
+        #first-box {
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 28px;
+            margin-top: 0px;
+            top: 0px;
+            /* height: 100px; */
+            width: 100%;
+            background-color:rgb(24, 21, 25) ;
+            position: relative;
+            left: 0px;
+        }
+        #second-box {
+            height: 100px;
+            width: 100px;
+            background-color:darkorchid ;
+            position: absolute;
+            left: 208px;
+            top: 200px;
+        }
+        #third-box {
+            height: 100px;
+            width: 100px;
+            background-color:darkseagreen ;
+            position: fixed;
+            left: 100px;
+        }
+        #fourth-box {
+            position: relative;
+            box-sizing: content-box;
+            top: 250px;
+            left: 200px;
+            height: 100px;
+            width: 100px;
+            /* background-color:burlywood ; */
+        }
+
+    </style>
 </head>
 <body>
-    <nav>
-        <div class="wrapper">
-            <div class="logo"><a href="">Kelas Bulu</a></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#tutors">Tutors</a></li>
-                    <li><a href="#partners">Partners</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="first-box">
+        <h1>TITLE</h1>
+    </div>
+    <!-- Position relative (Tidak mempengaruhi elemen yang lainnya atau elemen di bawahnya posisinya tetap) -->
+    <div id="second-box">Absolute</div>
+    <!-- Position Absolute (Akan mempengaruhi elemen lainnya, elemen di bawahnya akan naik keatas mengisi space yang kosong) -->
+    <div id="third-box">Fixed</div>
+    <!-- Position Fixed "Akan mempengaruhi elemen lainnya, hampir sama seperti Absolute (namun ketika di scroll tidak akan berpindah / fix)" -->
+    <div id="fourth-box">
+        <img src="image/education.jpg" alt=""><a href="index.html"></a>
+    </div>
+    
 </body>
 </html>
