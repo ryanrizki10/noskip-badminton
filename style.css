@@ -320,6 +320,15 @@ h3 {
   cursor: pointer;
 }
 
+.logo-login{
+  max-width: 300px;
+  /* background-color: black; */
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
 
 /* Dekstop */
 @media only screen and (max-width: 1020px) {
