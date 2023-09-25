@@ -320,13 +320,19 @@ h3 {
   cursor: pointer;
 }
 
-.logo-login{
+.logo-login {
+  margin: 20px;
+}
+
+.logoo{
+  font-family: OCR A Std, monospace;
+  font-size: 30px;
   max-width: 300px;
   /* background-color: black; */
-  margin: 10px;
+  /* margin: 100px; */
   color: white;
   border-radius: 10px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 
